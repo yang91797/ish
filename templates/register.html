@@ -1,0 +1,59 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>江海大i生活</title>
+    <link rel="shortcut icon" href="{% static 'stark/imgs/logo.jpg' %} ">
+    <link rel="stylesheet" href="{% static 'stark/plugins/bootstrap/css/bootstrap.css' %} "/>
+    <link rel="stylesheet" href="/static/backstage/css/register.css">
+</head>
+<body>
+<div>
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">江海大i生活</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="{% url 'backstage:login' %}">登录</a></li>
+            <li><a href="javascript:;">注册</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+                <h3>注册新用户</h3>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+                <form id="form" autocomplete="off">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="avatar">
+                            头像
+                            <img src="/media/avatars/default.png" alt="头像" id="avatar_img" width="60" height="60">
+                        </label>
+                        <input type="file" id="avatar" name="avatar" style="display: none">
+                    </div>
+                    {% for field in form %}
+                        <div class="form-group">
+                            <label for="{{ field.auto_id }}">{{ field.label }}</label>
+                            {{ field }} <span class="error pull-right"></span>
+                        </div>
+                    {% endfor %}
+                    <input type="button" class="btn btn-default reg_btn" value="提交"><span class="error"></span>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+<script src="/static/plugins/jquery-3.3.1.js"></script>
+<script src="/static/backstage/js/register.js"></script>
+</html>
