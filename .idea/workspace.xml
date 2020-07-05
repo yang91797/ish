@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f727b9fd-1fdf-4a8f-94f7-6c9299cbc6ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REDEME.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backstage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ish/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ish/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +126,7 @@
           <entry key="html" value="449" />
           <entry key="js" value="553" />
           <entry key="md" value="341" />
-          <entry key="py" value="52702" />
+          <entry key="py" value="52735" />
           <entry key="redeme" value="35" />
           <entry key="txt" value="15" />
           <entry key="wxml" value="11" />
@@ -139,7 +139,7 @@
           <entry key="JavaScript" value="553" />
           <entry key="Markdown" value="341" />
           <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Python" value="52675" />
+          <entry key="Python" value="52708" />
           <entry key="SQL" value="27" />
         </counts>
       </usages-collector>
@@ -147,16 +147,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ish/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="169" column="14" lean-forward="true" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
+            <state relative-caret-position="1197">
+              <caret line="141" column="35" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -211,7 +211,7 @@
         <entry file="file://$PROJECT_DIR$/backstage/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -222,7 +222,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wxapi/views/advertise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
+            <state relative-caret-position="804">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -329,9 +329,7 @@
         <option value="$PROJECT_DIR$/wxapi/views/details.py" />
         <option value="$PROJECT_DIR$/wxapi/view.py" />
         <option value="$PROJECT_DIR$/static/robots.txt" />
-        <option value="$PROJECT_DIR$/backstage/urls.py" />
         <option value="$PROJECT_DIR$/ish/urls.py" />
-        <option value="$PROJECT_DIR$/ish/settings.py" />
         <option value="$PROJECT_DIR$/wxapi/utils/tools.py" />
         <option value="$PROJECT_DIR$/wxapi/models.py" />
         <option value="$PROJECT_DIR$/wxapi/urls.py" />
@@ -346,6 +344,8 @@
         <option value="$PROJECT_DIR$/stark/service/stark.py" />
         <option value="$PROJECT_DIR$/redeme" />
         <option value="$PROJECT_DIR$/REDEME.md" />
+        <option value="$PROJECT_DIR$/ish/settings.py" />
+        <option value="$PROJECT_DIR$/backstage/urls.py" />
       </list>
     </option>
   </component>
@@ -891,19 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wxapi/views/advertise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1570284882205" expanded="true" signature="181:472" ph="..." />
-            <marker date="1570284882205" expanded="true" signature="492:551" ph="..." />
-            <marker date="1570284882205" expanded="true" signature="1299:1304" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wxapi/views/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -922,23 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ish/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="169" column="14" lean-forward="true" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticAll/stark/imgs/u=1683027955,640863117&amp;fm=200&amp;gp=0.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -952,6 +922,36 @@
             <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wxapi/views/advertise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1570284882205" expanded="true" signature="181:472" ph="..." />
+            <marker date="1570284882205" expanded="true" signature="492:551" ph="..." />
+            <marker date="1570284882205" expanded="true" signature="1299:1304" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ish/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="141" column="35" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="35" />
         </state>
       </provider>
     </entry>

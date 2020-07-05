@@ -138,8 +138,8 @@ STATICFILES_DIRS = [
 ]
 
 MINA_APP = {
-    'appid': 'wx4a62589ac3508184',
-    'appkey': 'ba6f6a64e11a750a7189aa06e255535d',
+    'appid': '',        # 小程序appid
+    'appkey': '',       # 小程序appkey
 }
 
 # AUTH_USER_MODEL = "wxapi.Customer"   # 继承django自带的用户表时使用
