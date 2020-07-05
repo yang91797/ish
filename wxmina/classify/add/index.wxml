@@ -1,0 +1,46 @@
+<!--classify/add/index.wxml-->
+<view class="page">
+    <view wx:if='{{category == 4}}'>
+        <view class="category">
+            <text class="category-item1">选择所属科目:</text>
+            <picker class="category-item2" mode="selector" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                {{array[index]}}
+            </picker>
+        </view>
+        <view class='study-url'>
+            <input type='text' placeholder='输入资料提取链接' bindblur='study_url'></input>
+        </view>
+        
+        <view class='gold'>
+            <input type='number' placeholder='输入出售金币' bindblur='gold'></input>
+        </view>
+
+    </view>
+
+    <view class="question-input-area">
+
+        <!-- 文章正文  -->
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" show-confirm-bar="false" placeholder="请输入正文内容（非必填项）" maxlength="500" placeholder-style="color:#b3b3b3;font-size:14px;" style="height: 12rem" bindinput="handleContentInput" />
+                    <view class="weui-textarea-counter">{{contentCount}}/500</view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class="question-images-area">
+        <i-upimage binddelImage='delImage' bindaddImage='addImage' />
+
+
+    </view>
+
+    <!-- 提交表单按钮  -->
+    <form bindsubmit='submitForm' report-submit='true'>
+        <button class="weui-btn" type="primary" form-type='submit'>提交</button>
+    </form>
+
+
+</view>

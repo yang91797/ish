@@ -1,1100 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f727b9fd-1fdf-4a8f-94f7-6c9299cbc6ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/92c5de70-6bcc-41c2-82e2-a35edeb35d44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ish.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/REDEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/advertise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/comment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/inform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/sign.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/studylink.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/trove.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/config/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/permission/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/record/send.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/send.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/stark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/utils/Myforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/utils/geetest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/utils/sqlheper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/utils/validCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/utils/xssfilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ish/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ish/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ish/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ish/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/IMG_9380.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_0d920d4267155da995b7feebbe31fa7d56dfda01cd87b76e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_0fdbbed875ba1c9bfbc2efc3cdcf48905be084e59cab8791.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_3ba6cc3ee95994625686cac899ccb6a747029403cec25edb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_6895be4fb2b8eea28601513c97c31398a0685189f1db1fac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_7faad0ec479afca2a6f75b114102c405e0d23c6d93c30abf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_8ae396be48e95e9e2ec6ea8af26d5d5a22105bc712bbf529.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_8f998e12a0459bb99e441882ceb0447578406114027206f4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_b9fb7ee7dd3df38e6c0fa379a0a21800efae01c97533517e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_ce8f62f1b3ab56b2d21a4109af845168ffe1ae3789c0ac78.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_d11a6981c15a0eec04cdddcedcd333c84cb0e72d57a02f9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_d366ad944a4eb189b2eee539eacfa0846206b3d073ef638d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_d47d669d950ea1305afa5c23d5dece32628a61e53668b08d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_d7cbe087878635369fa48f87c4d7f0e70376faf821f7a2ac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/tmp_e87119d69502af1708f51d22504e332f369256266dfe0b49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.HUxRTyzxrSzca22cc7e05fdda23f63eb73c3452dde52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.SnBs1L4DuTytdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.fYGsFogErZDsdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.k8m57Hgn4RbMc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/advertise/zhulou.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/356.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/356_Ncz90Jn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/mmexport1557193285034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/mmexport1557193285034_CyIuBbv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/mmexport1557193285034_nE3iN9g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/avatars/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.1JdMO8N0ADXVb87fc40389f7089049c9b73b3c7913df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/code/oO93r4j1KYF3EzOMDc4gcZwcws1o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_006e77c39054343a0032c21de527f962a8ab2777fa8d09dc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_0268efdd62d108a88f47532edcddd846e7694ab4f6e2ed3b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_0372e593a57f6ea16afe93409857d5cd06ecab82a76815c7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_03917af8b2c08d3fc9d8070b76277ab7d49cc24a189dece4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_04184e84297cca97b5ebd8d0eb3a7624b6b7d182c57345e8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_051575cbefd3b52a98802c7f9eda95571bdb56886629e49e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_063f8e75adbdaaff42746a86b30be6ac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_07f7a59828eb31116fc93878c359cc099c563c67cde92495.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_0bd3d422fcd0b845f4d3d46cdb0b0349083d6d12dd8806ac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_0c218246b18113102818482b50ae9487a8978bd9ea3fce8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_0ca03634fedb3492af87541376e4792d980b4c1e5665c355.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_0d6a78b66a09d17e31c5632e15dbba103e64243057131c48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_1641e2442b68b1fce210f4d3756d847272567e0be90ee1ce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_17ba7c9de94c18ba77aaee147a91221395243e182147d051.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_19132c661afa802a070d9f599b136bf28c14843fc37c3c9f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_19e468a5555c58376514ce69f65ecc47b347270d5715a89e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_1a76a53a326d80acec13ac4570e33f4704c3a80dab30f3ab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_1b9809e552cdcc8dbf2bab59c27d7556ceec0c4c034591aa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_1c6707ae77a3deab40fd5a3e8075d259dd773c6718a78ad6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_1c9530af799d45dc70817e177c0cb93aa5cf1f5f4bbdb5ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_21178163e1feeed24f9126c8089da4b31bb640716c1fb4e8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_21a2c539c7b4678840c7087be22f8e58fe3948dc744c969a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_2334401d783db05c703804a09c90645dcda06d056b0397b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_23425b1d55418330a1d22e92c4f2dec32e4ff7599f8a0bd9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_237e439397117d5c1befc87d3efbc17580537fcc6dc3554e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_259abde968203774d8cdbd1ae4b382224f1dfd36cbfb60f1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_2733b61b69c80a36769b285304a110256f6d1cf00d313a8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_2c46cdc7c9df1ea7a9aa4b135d31461c42c78d1595e301c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_2e108887c068bd29afe85beac7cdf5f64eb2048f3fd0abdb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_2e302f636fd3a41b2e56a4268617b4c2c69e74ddd307c5a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_2fe1c05337ebadcebeb1c32d16d9e2cece0939a41a704c21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3463b293d6d16781d44c1e17c3681c273d0151e84a92e2f7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3763f25fbec52b2c472dce5c9dd3c67b071bcf39a973982b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3982662c283dcac643474ab2ab25d37b8bec9a3dd3f22f1e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3c67486b2572dbf7aa38fbbd2f4ab2504de9ef20a5b0ac5c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3ca361847b43ecf5f3679ff8762e95ca63f5c0ba343c4a81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3d51ec46c9c8948ca6f361fb7907be8f38a71a5bd34c8254.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_3dd334f9224ac9d91b774bfc6ba7075e20d1150457ce2270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_4116a5ec5939524e2ec0e5c03c45ebf6b05be13d3604b7ce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_42851b49cd9c16911832d311dc8856ebc996d0c9db0c4693.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_4305c965317453d2930267c52ef10e686a1c0b699ce9c2a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_431040a142a318e4acad3806d0a5679c8788102452fcec7c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_43d870d66374dcb4a56679c3feff5788b4ff6792040c290f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_44dff6765d6ad278ebd30da6ec17b1f11b7fe70931afd2f6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_45164409a61c269d6e452efdfeddfcfab051846cce0ae1d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_498d5ad4ce8212016e45ef79c47063c33385d84c33664d28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_49fd02d655ee2cfca90db9044b9bb8cff193bbc239149987.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_4aac7263afc21aee62b48a7d65be3f00e2c074c7d57620fb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_4b87807a3121d6a28aecc08468e004264568904fb9136dc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_4c879ea05b798dfe060e10d22e3e499e8142091402eadf6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_4d22f03a0df0131fa391a5ad31c65786cb33169476ebf601.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_53cdbbbd135e8e61cd53f0a6306eebeac24ae42d84ecdc0e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_5427ddc1ddfde1910f3c077ffc2d4166d4ed9020f74c9a0c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_550b92cedc61e62aeae5688d3cf8d593.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_55183d3e69975706756d104a05f86ddaa07e076b70c4d28a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_5b034f917c695685a6cce0eec2934460.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_6ad5c950471200511ed89e4009029756312a0b6d2af251f0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_6b8501669c5220ebe893b3b0c10062fe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_6c1b91b3e2471f66eb8715022abf2078c0f396d74c06ad19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_6d48048673e6bad843b17c56f7976c5399dac566ee835cc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_6f612d1d60a549fc3a006917194c2fdf28c786383d3477d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_706e11fb1e503a6f54b1c6aef421971c51772c5331f3ec16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_709b558c94508910ae132febd0657990ca701f84c7df25fa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_71e065a191b8b312722834949aadcba8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_71ffd48d602357dc32fcd4a150eae8eb33d70dff5f7c7a40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_737f0eb4d6b70ab285b4acf7dbef6ae818b55a34465432ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_765e6654c4f31284926e03057f02dcc7c899d811fec82b3e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_79b1ba8d0db721eb072763fa1a993ea03210dfc21ae9e28a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_7cf24568cf9aef252ec1807f2e952083.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_7dac6544a0f8bc295a5546e9df8fbe6f4e88faec108ac043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_8030da649032b65c4df5f30c394d5f00e233e38ac4186dda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_81d9bacc862f41ab5227c4e3ad252928.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_8785f51d24849f680cbe0259f4ae8d2e1dac5a55d3e2e618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_8fc8d76b4398832c95528b5a8710e8a11b876c22cc67170c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_9a736a7585e9ad8e19bdf8e590402b884a8ce4971afc893a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_9c4615b190d046f1dfcf5eb806f26c05c6c437b59b6f8402.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_9e18ff83798f7030fb0d325a663f4ea73f05554b3eef4feb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_9f0aa06d77c7d103225a8a22281fef34ec15c83f8e8834cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_a19320c524dfe30c35695278724f598a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_a2b8cdead7f56826984d8a5de5726dcf8863ea0aafbcf453.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_a35f1c12a6e539994eec590a9310dc3713f3a8621dcaddd0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_a479f48f255d5822a669a937d2adba8c84689f8a5b1fd750.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_a8556aad988bfcf743178b95a10acf12ea5b679d06f111cb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_aacb180e8865cf26dc27550eb79988883d4a703055ee5b0d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ac4d7468649cfd2b3a9bee6207a9a2ffd56d7b2296b52cec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_adde9acde2c0a40d4ef735a739cf9589e79d33424ccc7325.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_aeb90619d5feea0d07fcfbe116deee39c286ceccb03bdeac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_af1c75872a9e1cfdbaa9c960d157293802adc57a5281ebb9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_af564567f9c59fd6323df86a74723e58873009ea6d752801.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_b2e46c6008b6f304de57ff7ca9801446f8cf35037c5257d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_b379f1df8a18dfad576e639787edf5e7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_b598778cd00966693cce4231a21ffe61d7456ffc9055c8c7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_baf1c1363d723a175d1ff6974087e761c6eb0ac377b23c48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_bd4d03debb45672b1a3d183e825d377715a7eead9b3ec81e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_becbe3a7280122522c5d8ca16c3dc6020199d13948e26661.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c2fbc1c933a2aa482b68acbe6ce9a2805e5a7d41e3825816.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c6185ab235e5ca666ffe06c7681877c5c9264b4ac5f28f25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c6cdd7dc124b44eb32d01661a5b80bf3a984b8bd16e6d0a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c75741ba57a9f86f63487efe8b7e3f936ab10a383155a7d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c949fac5ea2bbbe6a45235512f9aa145e5a988580c3ed35f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c95cbc19adaa601d7595a496da7883568faf404af97b4bec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_c9cdcc70dc78c119b3f9c35cb60e8598d3a545d8d08dc4ac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_d334af4b02c0737eeacb0500b1a7ec7bd4c9e6982cac6177.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_d4234a390e3f02f818101b4fe1623291ba83e61101de38ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_d561590e01d90069139dfce33a5d691177780e3107f2f971.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_d9523f09cbd3434972e648064fc08c81fa0e69554dbba74e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_da7c82e5711080e03f4318670014f84b58f559a30ad9196e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_dcbd8bdb50088c7d7534a5322496620cd7e0850181a8f1ca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ddcabb4a2fe9c475480ce8027379a0a432bf6262dea388e6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_de5650fa6fcb446a827efb16b18e065d1ca9b6831f343e7f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_df969183592551aae849098371cb22e33431146b51a27317.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_e1ab763042f3b2581b4cab38b0bd2d74a92896cbbbd9f767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_e8bb5584f04cf83050de14fa7565d616546caeb4b647088a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ea516ae3285754a0ce9ccb0667fdde2a2a970735d88be899.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ea6d76b7e422d07d9efb6bbb8d1ec4c60d2a70fdbab21ae8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ea98bc422b593ed889ca0be95007a70416c2f8e68bcc7222.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_eefdc760230ff8e9206367e28dbabfd499937ed6730a40db.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_efb1100cb6fd7ccb78233372dc155cc01307ffa74ffe3ce8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_efd7d5baf5d20635dc006f676cf26f6f1f96b8a1aa4a7695.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_f0359a3a135fa3b6a4f4447cb363cc019cf49a4433d2ae6d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_f27917a2a72ef2eeac8b23ba0ea426c143c91f026de56a69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_f463fa2d219b18bd22f2418dda0d75023761c10ce4961f57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_f8af851352440f5589e2a42bd99048315449732e4092c65e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ffac04463e4d9975a643036098031ca8c1f5383c66267cfb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/tmp_ffe08f1bebad512bf05afd5b40c809cde948b39c077f4616.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs-IrU5ABZYmD1SL5EbEUbdA.2kMSTlTlLXhha22cc7e05fdda23f63eb73c3452dde52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs-IrU5ABZYmD1SL5EbEUbdA.GCtZCAnlxG88a22cc7e05fdda23f63eb73c3452dde52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs-IrU5ABZYmD1SL5EbEUbdA.l2KhSbc3hHaw5c5bbe9e389396244987335817440869.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs-IrU5ABZYmD1SL5EbEUbdA.lw7Yd5CTKZes155be796dacd918066463ce23aa1fdc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs-IrU5ABZYmD1SL5EbEUbdA.ttvbGnZ4LDiOdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.4KLNYWtdivxwc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.8JVDVjMszl7idbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.BYM7KIwwwE57ba01aab9bdd3e22d877a101b13f1c30a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.Bz34OekG5GBPc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.DmSnG4sE3COp155be796dacd918066463ce23aa1fdc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.HNrvPFJVo8uN5c5bbe9e389396244987335817440869.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.KMh61Vn8ylfXdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.NaPyLGRS9gaPdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.PmIgaWnqJy7vb87fc40389f7089049c9b73b3c7913df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.QAGW6KRAduSQba01aab9bdd3e22d877a101b13f1c30a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.TAV5OAc0vze080df4272bd4e688999c54aac8d5b1dd3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.bs97YIoCh6ajb87fc40389f7089049c9b73b3c7913df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.ciPitYZmeWAY5c5bbe9e389396244987335817440869.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.etsV0gu34djCa22cc7e05fdda23f63eb73c3452dde52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.gynpKXEy9pXSc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.hp532eyBr0h3dbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.qDRa95ed3fKla22cc7e05fdda23f63eb73c3452dde52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.rCK8WJIWV2opc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wx4a62589ac3508184.o6zAJs8kc0kazfA9j-A25J2HjJ4g.xDJ0T2MN7GE180df4272bd4e688999c54aac8d5b1dd3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.9pgOd8xfCgKVdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.SExQcr4Fljwudbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.gcc19WpbbAOcc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.mT3YOurrOikIdbf0690870e3742c115d75137a1c8610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.n3nsvpPE4zQkc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/wxb1d63d85838a7b4e.o6zAJs8kc0kazfA9j-A25J2HjJ4g.wnqS2cEKjiTSc3a2206cd7bb16226e94eb035e450604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/forms/permission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/middlewares/rbac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/service/init_permission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/service/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/static/rbac/css/rbac.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/static/rbac/js/rbac.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/breadcrumb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/distribute_permissions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/menu_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/menu_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/multi_permissions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/permission_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/role_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templates/rbac/role_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/templatetags/rbac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/views/permission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rbac/views/userinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/service/stark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/css/commons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/imgs/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/imgs/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/imgs/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/imgs/u=1683027955,640863117&amp;fm=200&amp;gp=0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/static/stark/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/templates/stark/change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/templates/stark/changelist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/templates/stark/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/templates/stark/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/templatetags/stark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/utils/pagination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stark/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/css/addInform.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/backstage/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp.net/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp.net/bin/LitJSON.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp.net/demo.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp.net/file_manager_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp.net/upload_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp/JSON_2.0.4.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp/UpLoad_Class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp/demo.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp/file_manager_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/asp/upload_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/auto-height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/colorpicker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/custom-plugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/custom-theme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/dynamic-load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/file-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/file-manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/filter-mode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/image-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/multi-image-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/multi-language.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/newline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/node.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/paste-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/qqstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/uploadbutton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/url-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/examples/word-count.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/demo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/file_manager_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/lib/json_simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/jsp/upload_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/kindeditor-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/php/JSON.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/php/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/php/file_manager_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/php/upload_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/kindeditor-4.1.10/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/backstage/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/backstage/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/backstage/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/backstage/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp.net/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp.net/bin/LitJSON.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp.net/demo.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp.net/file_manager_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp.net/upload_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp/JSON_2.0.4.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp/UpLoad_Class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp/demo.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp/file_manager_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/asp/upload_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/auto-height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/colorpicker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/custom-plugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/custom-theme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/dynamic-load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/file-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/file-manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/filter-mode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/image-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/multi-image-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/multi-language.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/newline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/node.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/paste-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/qqstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/uploadbutton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/url-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/examples/word-count.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/demo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/file_manager_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/lib/json_simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/jsp/upload_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/kindeditor-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/php/JSON.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/php/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/php/file_manager_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/php/upload_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/plugins/kindeditor-4.1.10/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/rbac/css/rbac.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/rbac/js/rbac.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/css/commons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/css/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/imgs/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/imgs/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/imgs/u=1683027955,640863117&amp;fm=200&amp;gp=0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staticAll/stark/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/addInform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editInform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/stark/change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0002_auto_20190831_0022.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0003_studyclass_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0004_studyclass_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0005_article_study_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0006_auto_20190903_1939.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0007_errand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0008_auto_20190908_2113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0009_auto_20190909_0037.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0010_auto_20190909_0117.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0011_iprecord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0012_iprecord_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0013_auto_20190911_2302.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0014_auto_20190913_1533.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0015_telephone_site.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0016_telephone_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0017_auto_20190915_1933.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0018_auto_20190915_2214.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0019_auto_20190922_0019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0020_auto_20190922_1646.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0021_auto_20190923_1910.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0022_auto_20190923_2214.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0023_advertise_desc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0024_auto_20190924_1515.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0025_auto_20190925_2005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/0026_auto_20190925_2137.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/utils/detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/utils/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/advertise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/details.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/my.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxapi/views/userinfo.py" afterDir="false" />
-    </list>
+    <list default="true" id="f727b9fd-1fdf-4a8f-94f7-6c9299cbc6ba" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1236,33 +143,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stark/service/stark.py">
+        <entry file="file://$PROJECT_DIR$/ish/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wxapi/views/userinfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="78" column="11" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="11" />
+        <entry file="file://$PROJECT_DIR$/REDEME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -1297,10 +191,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wxapi/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2603">
+            <state relative-caret-position="2508">
               <caret line="150" selection-start-line="150" selection-end-line="150" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wxapi/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-393">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backstage/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1461,6 +376,27 @@
             <path>
               <item name="ish" type="b2602c69:ProjectViewProjectNode" />
               <item name="ish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ish" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ish" type="462c0819:PsiDirectoryNode" />
+              <item name="backstage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ish" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ish" type="462c0819:PsiDirectoryNode" />
+              <item name="ish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ish" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ish" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ish" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ish" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapi" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ish" type="b2602c69:ProjectViewProjectNode" />
@@ -1675,6 +611,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-7" width="1487" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1693492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1907,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wxapi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="-393">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
@@ -1921,15 +858,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backstage/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ish/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="89" column="41" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="41" />
+        <state relative-caret-position="209">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1975,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wxapi/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
+        <state relative-caret-position="2508">
           <caret line="150" selection-start-line="150" selection-end-line="150" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
@@ -2003,13 +936,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redeme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/redeme" />
     <entry file="file://$PROJECT_DIR$/REDEME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -2025,6 +952,13 @@
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ish/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
         </state>
       </provider>
     </entry>

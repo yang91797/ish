@@ -1,0 +1,15 @@
+/* pages/publish/index.wxss */
+
+@import "../top/top.wxss";
+
+.valid{
+    float: right;
+    padding: 10rpx;
+    margin-right: 20rpx;
+    color: #ff0000;
+    font-size: 25rpx;
+}
+.checkbox{
+    transform: scale(0.7,0.7);
+
+}

@@ -1,0 +1,87 @@
+<!--components/comment/index.wxml-->
+<import src='../../wxParse/wxParse.wxml' />
+<!-- 评论树 -->
+<view class='comment_list'>
+    <block wx:for="{{commentTemArray}}" wx:key="" wx:for-index="idx">
+        <view class='comment_pl' data-id="{{comment[idx].nid}}">
+            <view class='reply_user'bindtap='userinfo' data-id='{{comment[idx].user__openid}}'>
+                <image src='{{comment[idx].user__avatar}}'></image>
+                <view class='username'>{{comment[idx].user__username}}</view>
+            </view>
+            <view class='date'>{{comment[idx].create_time}}</view>
+            <view class='comment1'  bindlongpress='copy' bindtap="reply" data-username="{{comment[idx].user__username}}" data-userId='{{comment[idx].user_id}}' data-commentId='{{comment[idx].nid}}' data-ancestor='{{comment[idx].ancestor}}'>
+                <template is="wxParse" data="{{wxParseData:item}}" />
+            </view>
+            <view class='reply-item'>
+                <view class='images'>
+                    <view class='reply-image' wx:for="{{comment[idx].commentImage}}" wx:key="" bindtap='lookImage' data-id='{{index}}' data-commentIndex='{{idx}}'>
+                        <image lazy-load="true" mode='aspectFill' src='{{item}}'></image>
+                    </view>
+                </view>
+            </view>
+            <view class='replys {{comment[idx].isShow ? "hide":""}}'>
+                <view class='replys1' bindtap='reply' data-username="{{comment[idx].user__username}}" data-userId='{{comment[idx].user_id}}' data-commentId='{{comment[idx].nid}}' data-ancestor='{{comment[idx].ancestor}}'>回复>></view>
+                <view class='son_reply' bindtap='seeReply' data-id="{{comment[idx].nid}}" data-reId='{{"vie"+idx}}'>
+                <text>{{comment[idx].reply_count}} 回复</text>
+            </view>
+            </view>
+
+            <!-- 回复评论展示 -->
+            <view class='vie_reply' wx:if="{{reveal}}">
+                <view class='vie_reply1' wx:for="{{replyTemArray}}" wx:key="" wx:if="{{comment[idx].nid == reply_list[index].ancestor}}">
+                    <view class='user_son' >
+                        <view class='userinfo' bindtap='userinfo' data-id='{{reply_list[index].user__openid}}'>
+                            <image src='{{reply_list[index].user__avatar}}'></image>
+                            <view>{{reply_list[index].user__username}}</view>
+                        </view>
+                        <text>回复</text>
+                        <view class='userinfo' bindtap='userinfo' data-id='{{reply_list[index].parent_comment__user__openid}}'>
+                            <image src='{{reply_list[index].parent_comment__user__avatar}}'></image>
+                            <view>{{reply_list[index].parent_comment__user__username}}</view>
+                        </view>
+                        <text class='date1'>{{reply_list[index].create_time}}</text>
+                    </view>
+
+                    <view class='content' bindlongpress='copy' bindtap='reply' data-username='{{reply_list[index].user__username}}' data-userId='{{reply_list[index].user_id}}' data-commentId='{{reply_list[index].nid}}' data-ancestor='{{reply_list[index].ancestor}}'>
+                        <template is="wxParse" data="{{wxParseData:item}}" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </block>
+    <view class='Nocomment' wx:if='{{comment.length == 0}}'>暂无评论</view>
+</view>
+
+<!-- 输入评论 -->
+<view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'block' : 'none'}}"></view>
+<view class="comment-fixed">
+    <form catchsubmit="formSubmit" report-submit="true">
+        <view class="comment-respond">
+            <!-- <input class="comment-input" maxlength="200" name="inputPostID" value="{{detail.id}}" style="display:none" /> -->
+            <view class="comment-box">
+                <input class="comment-input" type='text' cursor-spacing="10" maxlength="150" name="input" value="{{releaseValue}}" placeholder="输入评论" focus="{{focus}}" bindblur="onReplyBlur" bindfocus="textAreaFocus" />
+                <button class="comment-button touch-active" open-type="getUserInfo" formType="submit">提交</button>
+            </view>
+
+            <view class='tool'>
+                <!-- <image src="../../images/nav/home-off.png" class="img-plus" style="margin-left:20rpx;margin-right:20rpx" catchtap="goHome"></image> -->
+                <image src="../../images/nav/plus.png" class="img-plus" catchtap="emojiShowHide" mode=""></image>
+                <image src='/images/nav/resizeApi.png' class='img-up' catchtap="chooseImage"></image>
+                <view class="img-report"><i-report /></view>
+            </view>
+            <!--功能图标-->
+            <!--emoji表情盒子-->
+            <view class="emoji-box {{isShow ? 'emoji-move-in' : 'emoji-move-out'}} {{isLoad ? 'no-emoji-move' : ''}}">
+                <scroll-view scroll-y="true" bindscroll="emojiScroll" style="height:200px">
+                    <block wx:for="{{emojis}}" wx:key="">
+                        <view class="emoji-cell">
+
+                            <image class="touch-active" catchtap="emojiChoose" src="../../wxParse/emojis/{{item}}.gif" data-oxf="{{item}}"></image>
+                        </view>
+                    </block>
+                </scroll-view>
+            </view>
+
+        </view>
+    </form>
+</view>

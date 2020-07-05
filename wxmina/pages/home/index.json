@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-slideshow": "/components/slideshow/index",
+    "i-search": "/components/search/index",
+    "i-report": "/components/report/index",
+    "wux-notice-bar": "/components/notice-bar/index"
+  }
+}

@@ -1,0 +1,23 @@
+<!--classify/auth/index.wxml-->
+<view>
+    <view class="des">注意：身份验证使用的是教务管理系统的用户名和密码！只能绑定一次，不能更改身份验证信息！！！若无法完成认证，请等几分钟再试，联系客服</view>
+    <form bindsubmit="submit" report-submit='true'>
+        <view class="center">
+            <view class="item">
+                <input name="user" placeholder="用户名"></input>
+            </view>
+            <view class="item">
+                <input name="pwd" password="true" placeholder="密码"></input>
+            </view>
+            <view class="item code">
+                <image bindtap="refresh" class="code_iamge" src="{{code}}"></image>
+                <input name="code" placeholder="验证码"></input>
+            </view>
+            <view class="submit">
+                <button form-type="submit">登录</button>
+            </view>
+
+        </view>
+    </form>
+
+</view>

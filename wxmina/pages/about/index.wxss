@@ -1,0 +1,33 @@
+/* pages/about/index.wxss */
+
+.item{
+    display: flex;
+    border-bottom: 1px solid #ebebeb !important;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -59rpx 
+}
+
+.btn{
+    font-size: 40rpx;
+    color: #6d6d6d !important;
+    position: relative;
+    z-index: 100;
+    opacity: 0;
+}
+
+button[plain]{
+    border: 0
+}
+
+.icon-item{
+    right: 45rpx;
+    position: absolute;
+    line-height: 51rpx;
+    font-size: 40rpx;
+    color: #6d6d6d;
+}
+.item-font{
+    font-size: 40rpx;
+    color: #6d6d6d;
+}

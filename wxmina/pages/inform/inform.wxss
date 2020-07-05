@@ -1,0 +1,29 @@
+/* pages/inform/inform.wxss */
+.title{
+    text-align: center;
+    font-size: 50rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-weight: bolder;
+    color: black;
+    margin-top: 30rpx;
+}
+
+.content{
+    padding: 20rpx;
+    font-size: 30rpx;
+    color: black;
+    font-weight: lighter;
+    margin-top: 10rpx;
+}
+
+.item{
+    margin-top: 30rpx;
+}
+
+.foot{
+    padding: 20rpx;
+    font-size: 30rpx;
+    color: red;
+    
+}

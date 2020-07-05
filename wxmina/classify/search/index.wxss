@@ -1,0 +1,3 @@
+/* classify/search/index.wxss */
+
+@import '../../pages/top/top.wxss'

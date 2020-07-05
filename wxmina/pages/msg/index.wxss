@@ -1,0 +1,93 @@
+/* pages/msg/index.wxss */
+
+.page {
+    background-color: #ededed;
+}
+.none-msg{
+    font-size: 45rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    color: #D3D3D3;
+    margin-top: 50%;
+}
+.item {
+    background-color: #fff;
+    width: 100%;
+     padding-bottom: 16rpx;
+     margin-top: 10rpx;
+}
+
+.meta_item {
+    display: flex;
+    line-height: 30rpx;
+    margin-right: 15rpx;
+    padding: 15rpx;
+}
+
+.meta_icon {
+    margin-right: 5rpx;
+}
+
+.meta_icon image {
+    width: 55rpx;
+    height: 55rpx;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 24rpx;
+}
+
+.time {
+    font-size: 20rpx;
+    color: #999;
+   
+}
+
+.reply {
+    margin-top: 25rpx;
+}
+
+.msg {
+    margin-left: 12rpx;
+}
+
+.content {
+    border: 1px #fff solid;
+    background-color: #fff;
+    border-radius: 10rpx;
+    min-height: 100rpx;
+    box-shadow: 0 2px 2px 0 rgba(1, 0, 0, 0.16), 0 0 0 1px rgba(1, 0, 0, 0.08);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.content view {
+    margin-left: 24rpx;
+    margin-top: 5rpx;
+}
+
+.topic_meta .meta_item_date {
+    width: 320rpx;
+}
+
+.meta_item_view {
+    width: 88rpx;
+}
+
+.meta_item_comment {
+    width: 88rpx;
+}
+
+.topic_meta .meta_item_like {
+    width: 88rpx;
+}
+
+.meta_more {
+    margin-left: auto;
+    height: 30rpx;
+    line-height: 30rpx;
+    font-size: 30rpx;
+    color: #7a81b1;
+}

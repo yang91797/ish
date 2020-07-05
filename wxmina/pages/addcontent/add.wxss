@@ -1,0 +1,145 @@
+/* pages/addcontent/add.wxss */
+
+page {
+    background: #f6f7f8;
+}
+
+.question-form {
+    margin: 25rpx;
+}
+
+radio {
+    transform: scale(0.8);
+}
+
+button[type=primary] {
+    border: 1px solid #ebebeb !important;
+    background-color: #fff;
+    color: #030303 !important;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.16), 2px 2px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.button-hover[type=primary] {
+    color: #030303;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+
+.section {
+    min-height: 50rpx;
+    width: 100%;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    color: #838b8b;
+    margin-bottom: 20rpx;
+    text-align: center;
+}
+
+.section text {
+    font-size: 45rpx;
+    color: #136ec2;
+}
+
+.question-input-area {
+    background-color: #fff;
+    border: 1rpx solid #f2f2f2;
+    border-radius: 4rpx;
+}
+
+.question-title-wrap {
+    display: flex;
+    align-items: center;
+    border-bottom: 1rpx solid #ccc;
+    margin: 10rpx 30rpx;
+    padding: 20rpx 0;
+}
+
+.question-title {
+    flex: 1;
+}
+
+.weui-textarea-counter, .title-input-counter {
+    color: #b3b3b3;
+    font-size: 14px;
+    padding-left: 10rpx;
+}
+
+.weui-cell::before, .weui-cells::before, .weui-cell::after, .weui-cells::after {
+    border: none;
+}
+
+.question-images-area {
+    padding: 40rpx 0;
+}
+
+.question-images-tool {
+    display: flex;
+    align-items: center;
+}
+
+.question-images {
+    display: flex;
+    align-items: center;
+    margin-top: 40rpx;
+}
+
+.q-image-wrap {
+    width: 31%;
+    margin-right: 10rpx;
+}
+
+.q-image {
+    flex: 1;
+    height: 200rpx;
+    width: 100%;
+}
+
+.q-image-remover {
+    text-align: center;
+    font-size: 30rpx;
+}
+
+.study-url input {
+    font-size: 28rpx;
+    width: 650rpx;
+    color: black;
+    line-height: 70rpx;
+    height: 70rpx;
+}
+
+.study-url {
+    background: white;
+    width: 650rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: auto;
+    padding-left: 20rpx;
+    padding-bottom: auto;
+    margin: 10rpx auto;
+    height: 70rpx;
+    border-radius: 5px 5px;
+}
+
+.gold input {
+    font-size: 28rpx;
+    width: 300rpx;
+    color: black;
+    line-height: 70rpx;
+    height: 70rpx;
+}
+
+.gold {
+    background: white;
+    width: 300rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: auto;
+    padding-left: 20rpx;
+    padding-bottom: auto;
+    margin: 10rpx auto;
+    height: 70rpx;
+    border-radius: 5px 5px;
+}

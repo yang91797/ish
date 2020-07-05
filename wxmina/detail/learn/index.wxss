@@ -1,0 +1,10 @@
+/* detail/learn/index.wxss */
+@import "../../pages/detail/detail.wxss";
+
+.author{
+    margin-left: 2rpx;
+    margin-top: 9rpx; 
+}
+.time{
+    margin-left: 2rpx;
+}

@@ -1,0 +1,30 @@
+<!--components/upimage/index.wxml-->
+<!-- 添加图片按钮  -->
+<view class="question-images-tool">
+    <image src='/images/nav/resizeApi.png' class='img-plus' bindtap="chooseImage" wx:if="{{images.length < 6}}"></image>
+    
+</view>
+
+
+
+<!-- 图片缩略图  -->
+
+<view class="question-images">
+    <block wx:for="{{images}}" wx:key="*this" wx:if="{{index < 3}}">
+        <view class="q-image-wrap">
+            <image class="q-image" src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+            <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage">删除</view>
+        </view>
+    </block>
+</view>
+
+<view class="question-images">
+    <block wx:for="{{images}}" wx:key="*this" wx:if="{{index > 2}}">
+        <view class="q-image-wrap">
+            <image class="q-image" src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+            <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage">删除</view>
+        </view>
+    </block>
+
+</view>
+

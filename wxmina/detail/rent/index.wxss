@@ -1,0 +1,15 @@
+/* detail/rent/index.wxss */
+@import "../../pages/detail/detail.wxss";
+
+.icon-item {
+    line-height: 51rpx;
+    font-size: 276rpx;
+    color: #f00;
+    float: right;
+    margin-top: -42rpx;
+    margin-right: 50rpx;
+}
+
+.time{
+    margin-left: 10rpx;
+}

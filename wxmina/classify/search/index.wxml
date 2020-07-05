@@ -1,0 +1,49 @@
+<!--classify/search/index.wxml-->
+<view>
+    <view class='article'>
+        <view class='topic no-search' wx:if="{{noSearch}}">没有搜索结果</view>
+        <view active='{{act}}' bind:change="onChange">
+            <view class='topic' wx:for='{{search_list}}' wx:key='{{item.nid}}' bindtap='seeDetail' data-id='{{item.nid}}' data-index='{{index}}'>
+
+                <view>
+                    <view class='topic_title'>{{item.title}}</view>
+                    <view class='topic_content'>{{item.desc}}</view>
+
+                </view>
+                <view class='topic_meta'>
+                    <!-- 作者 -->
+                    <view class='meta_item meta_item_author'>
+                        <view class='meta_icon'>
+                            <image lazy-load="true" src='{{item.user__avatar}}'></image>
+                        </view>
+                        <view class='meta_text'>{{item.user__username}}</view>
+                    </view>
+
+                    <!-- 时间 -->
+                    <view class='meta_item meta_item_date'>
+                        <view class='meta_icon meta_icon_author'>
+                            <image lazy-load="true" src='../../images/time_circle.png'></image>
+                        </view>
+                        <view class='meta_text'>{{item.create_time}}</view>
+                    </view>
+
+                    <!-- 评论数量 -->
+                    <view class='meta_item meta_item_comment'>
+                        <view class='meta_icon'>
+                            <image lazy-load="true" src='../../images/comment.png'></image>
+                        </view>
+                        <view class='meta_text'>{{item.comm_count}}</view>
+                    </view>
+
+                    <!-- 点赞数量 -->
+                    <view class='meta_item meta_item_like'>
+                        <view class='meta_icon'>
+                            <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                        </view>
+                        <view class='meta_text'>{{item.up_count}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

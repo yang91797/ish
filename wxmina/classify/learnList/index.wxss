@@ -1,0 +1,3 @@
+/* classify/learnList/index.wxss */
+
+@import '../second/index.wxss';

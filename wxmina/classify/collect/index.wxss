@@ -1,0 +1,25 @@
+/* classify/collect/index.wxss */
+.page{
+    background-color: #f8f8f8;
+    font-family: PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial;
+}
+.category{
+    background-color: #fff;
+    border-bottom: solid 1px #CDC9C9;
+    width: 100%;
+    height: 70rpx;
+    line-height: 80rpx;
+    padding-left: 10px;
+    font-size: 33rpx;
+    overflow: hidden
+}
+
+
+.icon-item{
+    right: 45rpx;
+    position: absolute;
+    line-height: 42rpx;
+    font-size: 54rpx;
+    color: #6d6d6d;
+    margin-top: -53rpx;
+}

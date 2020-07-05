@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "i-upimage": "/components/upimage/index"
+  }
+}

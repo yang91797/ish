@@ -1,0 +1,48 @@
+<!--pages/collect/index.wxml-->
+<view>
+    <view class='article'>
+        <view active='{{act}}' bind:change="onChange">
+            <view class='topic' wx:for='{{article_list}}' wx:key='{{item.id}}' bindtap='seeDetail' data-id='{{item.id}}'>
+                <view>
+                    <view class='topic_title'>{{item.title}}</view>
+
+                    <view class='topic_content'>{{item.desc}}</view>
+                </view>
+                <view class='topic_meta'>
+                    <!-- 作者 -->
+                    <view class='meta_item meta_item_author'>
+                        <view class='meta_icon'>
+                            <image src='{{item.avatar}}'></image>
+                        </view>
+                        <view class='meta_text'>{{item.username}}</view>
+                    </view>
+
+                    <!-- 时间 -->
+                    <view class='meta_item meta_item_date'>
+                        <view class='meta_icon meta_icon_author'>
+                            <image src='../../images/time_circle.png'></image>
+                        </view>
+                        <view class='meta_text'>{{item.create_time}}</view>
+                    </view>
+
+                    <!-- 评论数量 -->
+                    <view class='meta_item meta_item_comment'>
+                        <view class='meta_icon'>
+                            <image src='../../images/comment.png'></image>
+                        </view>
+                        <view class='meta_text'>{{item.comm_count}}</view>
+                    </view>
+
+                    <!-- 点赞数量 -->
+                    <view class='meta_item meta_item_like'>
+                        <view class='meta_icon'>
+                            <image src='{{like?yesSrc:noSrc}}'></image>
+                        </view>
+                        <view class='meta_text'>{{item.up_count}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

@@ -1,0 +1,32 @@
+/* classify/errand/create.wxss */
+
+.page{
+    width: 100%;
+}
+input{
+    border: 2rpx solid #808080;
+    width: 500rpx;
+
+}
+
+.item{
+    width: 500rpx;
+    margin: 15rpx auto;
+
+}
+.select-date{
+    display: flex;
+    
+}
+.select-date view{
+    margin-right: 15rpx; 
+}
+.select-date .date{
+    margin-right: 30rpx;
+    
+}
+
+.submit{
+   margin-top: 30rpx;
+   width: 300rpx;
+}

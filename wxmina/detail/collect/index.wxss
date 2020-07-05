@@ -1,0 +1,34 @@
+/* detail/collect/index.wxss */
+
+.page{
+    padding: 15rpx 20rpx;
+}
+.items{
+    height: 68rpx;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.phone-name{
+    width: 100%;
+    height: 50rpx;
+    line-height: 50rpx;
+    padding: 15rpx;
+    
+}
+.line{
+    border-bottom: solid 1px #CDC9C9;
+    width: 90%;
+}
+.phone{
+    width: 190rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border: 1px solid #b3b3b3;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08); 
+    margin-top: 18rpx;
+    margin-right: 20rpx;
+    border-radius: 10rpx;
+}

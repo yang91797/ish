@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "学习资料",
+  "usingComponents": {
+    "wux-notice-bar": "/components/notice-bar/index"
+  }
+}

@@ -1,0 +1,38 @@
+<!--pages/changeUser/index.wxml-->
+<form bindsubmit="formSubmit">
+    <view class='avatar' bindtap="chooseImage">
+        <image name="avatar" value="{{avatar}}" src='{{avatar}}'></image>
+    </view>
+    <view class='item'>
+        <view class='label'>昵称</view>
+        <input name="username" type='text' value='{{userinfo.username}}'></input>
+    </view>
+    <view class='item'>
+        <view class='label'>性别</view>
+        <radio-group name="sex" class="radio-group" bindchange="radioChange">
+            <label wx:for='{{sex}}' wx:key=''>
+                <radio value='{{item.number}}' checked='{{item.number == userinfo.sex}}'>{{item.value}}</radio>
+            </label>
+        </radio-group>
+
+    </view>
+    <view class='item'>
+        <view class='label'>电话</view>
+        <input placeholder="非必填项" name="telephone" type='number' value='{{userinfo.telephone}}'></input>
+    </view>
+    <view class='item'>
+        <view class='label'>QQ</view>
+        <input placeholder="非必填项" name="qq" type='number' value='{{userinfo.qq}}'></input>
+    </view>
+    <view class='item'>
+        <view class='label'>微信</view>
+        <input placeholder="非必填项" name="wechat" type='text' value='{{userinfo.wechat}}'></input>
+    </view>
+    <view class='item last'>
+        <view class='label'>邮箱</view>
+        <input placeholder="非必填项" name="email" type='text' value='{{userinfo.email}}'></input>
+    </view>
+    <view class='button'>
+        <button formType='submit'>保存</button>
+    </view>
+</form>

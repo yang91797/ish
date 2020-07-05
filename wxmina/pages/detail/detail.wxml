@@ -1,0 +1,112 @@
+<!--pages/detail/detail.wxml-->
+
+
+<view class='page' catchtap='catchhide' id='contain' wx:if="{{!reimage}}">
+
+    <view class='dk-show' style='height:{{dkheight}}px;'>
+        <view wx:if='{{category_id == 3}}'>
+            <view class='goods'>
+                <view class='leassonTilte'>{{title}}</view>
+                <view class='author-info' bindtap='userinfo' data-id='{{openid}}'>
+                    <image class='avatar1' src='{{avatar}}'></image>
+                    <view class='author'>作者：{{author}}</view>
+                </view>
+                <view class='time-read'>
+                    <view class='time'>{{time}}</view>
+                    <view class='read-count'>{{readCount}} 阅读</view>
+                </view>
+            </view>
+
+            <i-slideshow wx:if="{{images}}" banners='{{images}}' shopping="shopping" shopp-image="shopp-image" />
+
+            <view class='content'>
+                <template is='wxParse' wx:if="{{show}}" data='{{wxParseData:dkcontent.nodes}}' />
+                <text wx:if='{{show_text}}' selectable='true'>{{dkcontent}}</text>
+            </view>
+
+        </view>
+        <view wx:elif='{{category_id == 2 || category_id == 1}}'>
+            <view class='leassonTilte'>{{title}}</view>
+            <view class='author-info' bindtap='userinfo' data-id='{{openid}}'>
+                <image class='avatar1' src='{{avatar}}'></image>
+                <view class='author'>作者：{{author}}</view>
+            </view>
+            <view class='time-read'>
+                <view class='time'>{{time}}</view>
+                <view class='read-count'>{{readCount}} 阅读</view>
+            </view>
+
+            <view class='article'>
+                <template is='wxParse' wx:if="{{show}}" data='{{wxParseData:dkcontent.nodes}}' />
+                <text selectable='true' wx:if='{{show_text}}'>{{dkcontent}}</text>
+            </view>
+            <view class='article_image'>
+                <view wx:for='{{images}}' wx:key='{{index}}' data-index='{{index}}' bindtap='lookImage'>
+                    <image lazy-load='true' mode='widthFix' src='{{item}}'></image>
+                </view>
+            </view>
+        </view>
+        <view wx:elif='{{category_id == 4}}'>
+            <view class='leassonTilte'>{{title}}</view>
+            <view class='author-info' bindtap='userinfo' data-id='{{openid}}'>
+                <image class='avatar1' src='{{avatar}}'></image>
+                <view class='author'>作者：{{author}}</view>
+            </view>
+            <view class='time-read'>
+                <view class='time'>{{time}}</view>
+                <view class='read-count'>{{readCount}} 阅读</view>
+            </view>
+            <view class='article'>
+                <template is='wxParse' wx:if="{{show}}" data='{{wxParseData:dkcontent.nodes}}' />
+                <text selectable='true' wx:if='{{show_text}}'>{{dkcontent}}</text>
+            </view>
+            <view class='article_image'>
+                <view wx:for='{{images}}' wx:key='{{index}}' data-index='{{index}}' bindtap='lookImage'>
+                    <image lazy-load="true" mode='widthFix' src='{{item}}'></image>
+                </view>
+            </view>
+            <view>
+                <view wx:if='{{!study_url}}'>
+                    <view class='bd' bindtap='getLink'>
+                        <view class='bd-content'>下载地址已隐藏</view>
+                        <view class='bd-info'>，打赏作者</view>
+                        <text class='gold'>{{gold}} i币</text>
+                        <view class='bd-info'>即可获取^^^</view>
+                    </view>
+                    <view class='get' bindtap='getLink'>
+                        <text>立即打赏</text>
+                    </view>
+                </view>
+                <view class='study_url' bindlongpress='setcp' wx:elif='{{study_url}}'>
+                    <text class='study_url_text'>{{study_url}}</text>
+                </view>
+            </view>
+        </view>
+
+        <!-- 点赞、评论、收藏 -->
+        <view class='tool'>
+            <view class='tool-item' catchtap='onUpTap' data-post-id="{{id}}">
+                <image src="{{like?yesSrc:noSrc}}"></image>
+                <text>{{likeNum}}</text>
+            </view>
+
+            <view class="tool-item" catchtap='onCommentTap' data-post-id="{{post.postId}}">
+                <image src="../../images/news-faad14.png"></image>
+                <text>{{commentNum}}</text>
+            </view>
+
+            <view class="tool-item collect" catchtap='onCollectionTap' data-post-id="{{post.postId}}">
+
+                <image wx:if="{{collect}}" src="/images/nav/star3-faad14.png"></image>
+                <image wx:else src="/images/nav/star-faad14.png"></image>
+                <text>{{views}}</text>
+
+            </view>
+        </view>
+
+        <i-comment article_id="{{article_id}}" comment="{{comment}}" bindonLoad='reLoad' bindreimage='reimage' />
+    </view>
+
+</view>
+
+<i-reimage wx:if="{{reimage}}" files="{{reimage}}" articleId="{{article_id}}" />

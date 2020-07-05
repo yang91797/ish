@@ -1,0 +1,9 @@
+/* pages/commentImage/index.wxss */
+
+
+.img-plus {
+  width: 48rpx !important;
+  height: 48rpx !important;
+  margin-right: 10px;
+  margin-top: 10rpx;
+}

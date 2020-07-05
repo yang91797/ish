@@ -1,0 +1,53 @@
+<!--components/search/index.wxml-->
+<view>
+    <view class="page__bd" hidden='{{searchshow}}'>
+        <scroll-view scroll-top="{{scrollTop}}" style="height: {{windowHeight}}px; width: {{windowWidth}}px;" scroll-y="true" bindscrolltoupper="pullDownRefresh" bindscroll="scroll" bindscrolltolower="pullUpLoad" class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">
+                <view class="weui-search-bar">
+                    <view class="weui-search-bar__form">
+                        <view class="weui-search-bar__box">
+                            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                            <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" bindinput="inputTyping" bindblur="hideRecord" bindtap="searchLogShowed" />
+                            <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                                <icon type="clear" size="14"></icon>
+                            </view>
+                        </view>
+                        <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                            <icon class="weui-icon-search" type="search" size="14"></icon>
+                            <view class="weui-search-bar__text">搜索</view>
+                        </label>
+                    </view>
+                    
+                    <form bindsubmit='searchData' report-submit='true'>
+                        <button class='form_button' form-type='submit'>
+                            <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}">搜索</view>
+                        </button>
+                    </form>
+                </view>
+                <view wx:if="{{searchLogShowed}}" class='search-log1'>
+                    <view class='search-log2'>
+                        <view class="search-log" wx:for-item="searchLog" wx:for="{{searchLogList}}" wx:key="searchLogListId" bindtap="searchDataByLog" data-log="{{searchLog}}">
+                            {{searchLog}}
+                        </view>
+                    </view>
+                    <view class="clear-search-log" bindtap="clearSearchLog">清除搜索记录</view>
+                </view>
+            </view>
+            <view wx:for-items="{{msgList}}" wx:key="{{item.id}}">
+                <view class="kind-list__item">
+                    <!--用is 使用模版-->
+                    <template is="msgTemp" data="{{...item}}" />
+                </view>
+            </view>
+        </scroll-view>
+        <view>
+            <loading hidden="{{hidden}}" bindchange="loadingChange">
+                加载中...
+            </loading>
+        </view>
+    </view>
+
+    <view>
+
+    </view>
+</view>

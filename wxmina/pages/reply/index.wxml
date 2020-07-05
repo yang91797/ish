@@ -1,0 +1,49 @@
+<!--pages/reply/index.wxml-->
+<import src='../../wxParse/wxParse.wxml' />
+
+<view>
+    <view class='article'>
+        <view active='{{act}}' bind:change="onChange">
+            <view class='topic' wx:for='{{replyTemArray}}' wx:key='{{replyList[index].article__nid}}' bindtap='seeDetail' bindlongpress="del" data-id='{{replyList[index].article__nid}}' data-commId='{{replyList[index].nid}}'>
+                <!-- 评论者信息 -->
+                <view class='meta_item meta_item_author'>
+                    <view class='meta_icon'>
+                        <image src='{{userInfo.avatar}}'></image>
+                    </view>
+                    <view>
+                        <view class='meta_text name'>{{userInfo.username}}</view>
+                        <view class='meta_text time'>{{replyList[index].create_time}}</view>
+                    </view>
+                </view>
+                <view class='reply'>
+                    <template is="wxParse" data="{{wxParseData:item}}" />
+                </view>
+                <view class='content'>
+                    <view>
+                        <view class='topic_title'>{{replyList[index].article__title}}</view>
+                        <view class='topic_content'>{{replyList[index].article__desc}}</view>
+                    </view>
+                    <view class='topic_meta'>
+
+                        <!-- 评论数量 -->
+                        <view class='meta_item meta_item_comment'>
+                            <view class='meta_icon'>
+                                <image src='../../images/comment.png'></image>
+                            </view>
+                            <view class='meta_text'>{{replyList[index].article__comm_count}}</view>
+                        </view>
+
+                        <!-- 点赞数量 -->
+                        <view class='meta_item meta_item_like'>
+                            <view class='meta_icon'>
+                                <image src='{{like?yesSrc:noSrc}}'></image>
+                            </view>
+                            <view class='meta_text'>{{replyList[index].article__up_count}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+</view>

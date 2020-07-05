@@ -1,0 +1,172 @@
+/* pages/detail/detail.wxss */
+
+page {
+    box-sizing: border-box;
+    background-color: #FFFFFF !important;
+}
+
+.bd {
+    padding: 20px 15px;
+    display: flex;
+}
+
+.study_url {
+    width: 100%;
+    color: #436eee;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.study_url_text{
+    font-size: 23rpx;
+    text-align: center;
+    width: 90%;
+    border: 1px solid #EBEBEB;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.bd-content {
+    color: red;
+}
+
+.gold {
+    font-weight: 700;
+    font-size: 35rpx;
+    padding-left: 5rpx;
+    padding-right: 5rpx;
+    color: #404040;
+}
+
+.bd-info {
+    font-size: 30rpx;
+}
+
+.get {
+    background-color: #ff8b3d;
+    color: #fff;
+    width: 190rpx;
+    margin: auto;
+    text-align: center;
+}
+
+.leassonTilte {
+    padding: 15rpx;
+    font-size: 30px;
+}
+
+
+
+.content {
+    padding: 20px 15px;
+}
+
+.article {
+    padding: 5px 15px;
+    margin-top: 20rpx;
+}
+
+.shopping {
+    height: 500rpx !important;
+    width: 100%;
+}
+
+.shopp-image {
+    height: 500rpx;
+    width: 100%;
+}
+.goods{
+    margin-bottom: 40rpx;
+}
+.time-read{
+    display: flex;
+    color: #888;
+    font-size: 18rpx;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    justify-content: center;
+    margin-top: -50rpx;
+    position: relative;
+    left: -80rpx;
+
+}
+.time {
+    padding-right: 135rpx;
+    margin-left: 30rpx;
+}
+
+.wxParse-p {
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 26px;
+    color: #888;
+}
+
+.wxParse-img {
+    width: 100% !important;
+}
+
+.tool {
+    height: 64rpx;
+    text-align: center;
+    line-height: 64rpx;
+    margin: 20rpx 28rpx 20rpx 0;
+    padding: 20px 15px;
+}
+
+.tool-item {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 45rpx;
+}
+
+.tool-item image {
+    height: 50rpx;
+    width: 50rpx;
+    margin-right: 10rpx;
+}
+
+.collect image {
+    transform: scale(1.2);
+}
+
+.article_image {
+    margin-top: 30rpx;
+    margin-bottom: 100rpx;
+    padding: 20px 15px;
+}
+
+.article_image image {
+    margin-top: -45rpx;
+    width: 100%;
+}
+
+.avatar {
+    display: block;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    background: #31b0d5;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.author-info{
+    display: flex;
+    font-size: 20rpx;
+    flex-wrap: wrap;
+    color: #337ab7;
+    padding: 20rpx;
+}
+.author-info image{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    margin-right:20rpx;
+    margin-left: 20rpx; 
+}
+
+.author{
+    /* margin-left: -3rpx; */
+    margin-top: 9rpx; 
+}

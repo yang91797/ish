@@ -1,0 +1,81 @@
+/**app.wxss**/
+
+/* 设置全局樣式 */
+@import './iconfont.wxss';
+
+page{
+    font-size: 30rpx;
+}
+.container {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.emoji {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 2px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.emoji-box {
+  position: relative;
+  height: 200px;
+  padding: 5px 0;
+  box-sizing: border-box;
+  margin-bottom: -200px;
+}
+
+
+
+.emoji-cell {
+  width: 9.09%;
+  height: 33px;
+  display: inline-block;
+}
+
+.emoji-cell image, .wxEmoji {
+  width: 23px;
+  height: 23px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.emoji-move-in {
+  -webkit-animation: emoji-move-in 0.3s forwards;
+  animation: emoji-move-in 0.3s forwards;
+}
+
+.emoji-move-out {
+  -webkit-animation: emoji-move-out 0.3s forwards;
+  animation: emoji-move-out 0.3s forwards;
+}
+
+.no-emoji-move {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.no-more-goods{
+  text-align: center;
+  font-size: 24rpx;
+  padding-bottom:30rpx; 
+  color: #999;
+}
+
+.publish{
+    position: fixed;
+    right: 30rpx;
+    bottom: 50rpx;
+    z-index: 100;
+}
+.icon-publish{
+    font-size: 90rpx;
+    color: #87CEFA
+}

@@ -1,0 +1,58 @@
+<!--pages/addcontent/add.wxml-->
+<view class="question-form">
+        <view class="section">
+            <radio-group class="radio-group" bindchange="radioChange">
+                <label class="radio" wx:for="{{arr}}" wx:key="">
+                    <radio color='#5CACEE' value="{{item.nid}}" data-category='{{item.title}}' checked="{{item.nid == 2}}" /> {{item.title}}
+                </label>
+            </radio-group>
+
+            <!-- <picker bindchange="bindPickerChange" value="{{nid}}" range="{{array}}">
+            <view class="picker">
+                选择发布类型：
+                <text>{{array[nid]}}</text>
+            </view>
+        </picker> -->
+            <view wx:if='{{nid == 4}}'>
+                <view class='study-url'>
+                    <input type='text' placeholder='输入资料提取链接' bindblur='study_url'></input>
+                </view>
+
+                <view class='gold'>
+                    <input type='number' placeholder='输入出售金币' bindblur='gold'></input>
+                </view>
+
+            </view>
+        </view>
+        <view class="question-input-area">
+
+            <!-- 文章标题  -->
+            <view class="question-title-wrap">
+                <input class="question-title" placeholder="请输入标题" maxlength="40" placeholder-style="color:#b3b3b3;font-size:18px;" bindinput="handleTitleInput"></input>
+                <view class="title-input-counter">{{titleCount}}/40</view>
+            </view>
+
+
+            <!-- 文章正文  -->
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <textarea class="weui-textarea" show-confirm-bar="false" placeholder="请输入正文内容" maxlength="500" placeholder-style="color:#b3b3b3;font-size:14px;" style="height: 12rem" bindinput="handleContentInput" />
+                        <view class="weui-textarea-counter">{{contentCount}}/500</view>
+                    </view>
+                </view>
+            </view>
+
+        </view>
+
+        <view class="question-images-area">
+            <i-upimage binddelImage='delImage' bindaddImage='addImage' />
+
+
+        </view>
+
+        <!-- 提交表单按钮  -->
+    <form bindsubmit='submitForm' report-submit='true'>
+        <button class="weui-btn" type="primary" form-type='submit'>提交</button>
+    </form>
+</view>

@@ -1,0 +1,121 @@
+<!--pages/publish/index.wxml-->
+<view>
+    <view hidden="{{show}}">
+        <view class='type-box'>
+            <form bindsubmit='catClick' wx:for-items="{{categories}}" wx:key="id" id='{{item.nid}}' report-submit='true'>
+                <button class='form_button' form-type='submit'>
+                    <view class='type-navbar-item {{activeCategoryId == item.nid ? "type-item-on" : ""}}'>
+                        {{item.title}}
+                    </view>
+                </button>
+            </form>
+
+        </view>
+
+
+        <!-- 加载文章 -->
+        <view class='article' wx:if='{{activeCategoryId != 3}}'>
+            <view class='article-list'>
+                <view wx:for='{{article_list}}' wx:key='{{item.nid}}'>
+                    <view wx:if="{{activeCategoryId != 1}}" class="valid">
+
+                        <checkbox bindtap="checkboxChange" data-category='{{categories[activeCategoryId].title}}' data-id='{{item.nid}}' class="checkbox" value="{{categories[activeCategoryId].isValid[0].name}}" checked="{{!item.valid}}" />
+                        <text>{{categories[activeCategoryId].isValid[0].value}}</text>
+
+                    </view>
+                    <form bindsubmit='seeDetail' report-submit='true' data-index='{{index}}' data-id='{{item.nid}}' bindlongpress="del" hover-class='topic-hover'>
+                        <button class='form_button' form-type='submit'>
+                            <view class='topic' hover-class='topic-hover'>
+
+                                <view>
+                                    <view class='topic_content'>{{item.desc}}</view>
+                                    <view class='images1' wx:if='{{item.img__image}}'>
+                                        <image class='article-image' lazy-load='true' mode='aspectFill' src='{{item.img__image}}'></image>
+                                    </view>
+                                </view>
+                                <view class='topic_meta'>
+
+                                    <!-- 时间 -->
+                                    <view class='meta_item meta_item_date'>
+                                        <view class='meta_icon meta_icon_author'>
+                                            <image lazy-load="true" src='../../images/time_circle.png'></image>
+                                        </view>
+                                        <view class='meta_text'>{{item.create_time}}</view>
+                                    </view>
+
+                                    <!-- 评论数量 -->
+                                    <view class='meta_item meta_item_comment'>
+                                        <view class='meta_icon'>
+                                            <image lazy-load="true" src='../../images/comment.png'></image>
+                                        </view>
+                                        <view class='meta_text'>{{item.comm_count}}</view>
+                                    </view>
+
+                                    <!-- 点赞数量 -->
+                                    <view class='meta_item meta_item_like'>
+                                        <view class='meta_icon'>
+                                            <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                                        </view>
+                                        <view class='meta_text'>{{item.up_count}}</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </button>
+                    </form>
+                </view>
+
+            </view>
+        </view>
+        <view wx:if="{{activeCategoryId == 3}}">
+
+            <view class='article-list'>
+                <view wx:for='{{article_list}}' wx:key='{{item.id}}'>
+                    <view class="valid">
+                        <checkbox bindtap="checkboxChange" data-category='{{categories[activeCategoryId].title}}' data-id='{{item.id}}' class="checkbox" value="{{categories[activeCategoryId].isValid[0].name}}" checked="{{!item.valid}}" />
+                        <text>{{categories[activeCategoryId].isValid[0].value}}</text>
+                    </view>
+
+                    <form bindsubmit='seeDetail' report-submit='true' data-index='{{index}}' data-id='{{item.id}}'>
+                        <button class='form_button' form-type='submit'>
+
+                            <view class='topic' hover-class='topic-hover'>
+                                <view>
+                                    <view class='topic_content'>{{item.content}}</view>
+
+                                </view>
+                                <view class='topic_meta'>
+
+                                    <!-- 时间 -->
+                                    <view class='meta_item meta_item_date'>
+                                        <view class='meta_icon meta_icon_author'>
+                                            <image lazy-load="true" src='../../images/time_circle.png'></image>
+                                        </view>
+                                        <view class='meta_text'>{{item.create_time}}</view>
+                                    </view>
+
+                                    <!-- 评论数量 -->
+                                    <view class='meta_item meta_item_comment'>
+                                        <view class='meta_icon'>
+                                            <image lazy-load="true" src='../../images/comment.png'></image>
+                                        </view>
+                                        <view class='meta_text'>0</view>
+                                    </view>
+
+                                    <!-- 点赞数量 -->
+                                    <view class='meta_item meta_item_like'>
+                                        <view class='meta_icon'>
+                                            <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                                        </view>
+                                        <view class='meta_text'>0</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </button>
+                    </form>
+
+                </view>
+            </view>
+        </view>
+    </view>
+    <view hidden="{{loadingMoreHidden}}" class="no-more-goods">哥也是有底线的</view>
+</view>

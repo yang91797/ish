@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "发布",
+  "usingComponents": {
+      "i-upimage": "/components/upimage/index"
+  }
+}

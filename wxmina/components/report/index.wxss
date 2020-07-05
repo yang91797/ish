@@ -1,0 +1,40 @@
+/* components/report/index.wxss */
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    justify-content: flex-start;
+    /* width: 50rpx; */
+    /* height: 50rpx; */
+    /* background-color: black; */
+}
+.icon-item{
+    line-height: 51rpx;
+    font-size: 50rpx;
+    color: 	#696969;
+    position: relative;
+    margin-left:-53rpx;
+}
+
+.btn{
+    font-size: 26rpx;
+    color: #6d6d6d !important;
+    position: relative;
+    z-index: 100;
+    /* opacity: 0; */
+    width: 68rpx;
+    height: 53rpx;
+    line-height: 53rpx;
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+button::after {
+  border: none !important;
+}
+button{
+    border: 0
+}

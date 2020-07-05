@@ -1,0 +1,8 @@
+<!--classify/collect/index.wxml 查询 -->
+<view class="page">
+    <view class="category" wx:for="{{phone_category}}" wx:key="{{item.id}}">
+        <view class="section" bindtap="section" data-id="{{item.id}}">{{item.category}}</view>
+        <view class='iconfont icon-youjiantou icon-item'></view>
+    </view>
+
+</view>

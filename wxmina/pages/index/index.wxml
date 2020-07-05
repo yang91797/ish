@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class='container'>
+
+    <block>
+        <view class='content'>
+            <view class="hd">
+                <image class="logo" src="/images/logo.png"></image>
+                <image class="wave" src="/images/line.png" mode="aspectFill"></image>
+                <image class="wave wave-bg" src="/images/line.png" mode="aspectFill"></image>
+            </view>
+            <view class="bd">
+                <view class='confirm-btn' bindtap='goToIndex' bindtap='goToIndex'>
+                    <text>Go</text>
+                </view>
+            </view>
+            
+        </view>
+    </block>
+</view>

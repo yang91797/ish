@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "租借详情",
+  "usingComponents": {
+    "i-upimg": "/components/upimage/index",
+    "i-comment": "../../components/comment/index",
+    "i-slideshow": "/components/slideshow/index",
+    "i-reimage": "/components/reImage/index"
+  }
+}

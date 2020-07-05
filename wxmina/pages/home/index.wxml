@@ -1,0 +1,124 @@
+<!--pages/home/index.wxml-->
+<view>
+    <i-search bindsearchShow="searchShow" bindsearchData="searchData" />
+    <view hidden="{{!show}}">
+        <view class='article'>
+            <view class='topic no-search' wx:if="{{noSearch}}">没有搜索结果</view>
+
+            <view class='topic' wx:for='{{search_list}}' wx:key='{{item.nid}}' bindtap='seeDetail' data-id='{{item.nid}}' data-index='{{index}}' data-ctg="{{item.category__title}}">
+
+                <view>
+                    <view class='topic_title'>{{item.title}}</view>
+                    <view class='topic_content'>{{item.desc}}</view>
+
+                </view>
+                <view class='topic_meta'>
+                    <!-- 作者 -->
+                    <view class='meta_item meta_item_author'>
+                        <view class='meta_icon'>
+                            <image lazy-load="true" src='{{item.user__avatar}}'></image>
+                        </view>
+                        <view class='meta_text'>{{item.user__username}}</view>
+                    </view>
+
+                    <!-- 时间 -->
+                    <view class='meta_item meta_item_date'>
+                        <view class='meta_icon meta_icon_author'>
+                            <image lazy-load="true" src='../../images/time_circle.png'></image>
+                        </view>
+                        <view class='meta_text'>{{item.create_time}}</view>
+                    </view>
+
+                    <!-- 评论数量 -->
+                    <view class='meta_item meta_item_comment'>
+                        <view class='meta_icon'>
+                            <image lazy-load="true" src='../../images/comment.png'></image>
+                        </view>
+                        <view class='meta_text'>{{item.comm_count}}</view>
+                    </view>
+
+                    <!-- 点赞数量 -->
+                    <view class='meta_item meta_item_like'>
+                        <view class='meta_icon'>
+                            <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                        </view>
+                        <view class='meta_text'>{{item.up_count}}</view>
+                    </view>
+                </view>
+            </view>
+
+        </view>
+    </view>
+
+    <view class="center" hidden="{{show}}">
+        <i-slideshow banners='{{banners}}' bindmyevent="look" shopping="shopping" shopp-image="shopp-image" />
+        <wux-notice-bar loop bindlongpress="copy">
+            {{infoContent}}
+        </wux-notice-bar>
+        <view class='content'>
+            <view class='content-item' bindtap='secondary'>
+                <view class='icon-content' style='background-color:#00BFFF;'>
+                    <text class='iconfont icon-ershoushebei icon-item' style='color:#F0F8FF'></text>
+                </view>
+                <view class='text'>二手</view>
+            </view>
+            <view class='content-item' bindtap="study">
+                <view class='icon-content' style='background-color:#fbfdf6;'>
+                    <text class='iconfont icon-huaban icon-item' style='color:#5f7dfd;'></text>
+                </view>
+                <view class='text'>资料</view>
+            </view>
+            <view class='content-item' bindtap="rent">
+                <view class='icon-content' style='background-color:#FFFACD;'>
+                    <text class='iconfont icon-renew icon-item' style='color:#696969;'></text>
+                </view>
+                <view class='text'>租借</view>
+            </view>
+
+            <view class='content-item' bindtap="errand">
+                <view class='icon-content' style='background-color:#E0FFFF;'>
+                    <text class='iconfont icon-paobu icon-item' style='color:#dd7dfd'></text>
+                </view>
+                <view class='text'>跑腿</view>
+            </view>
+
+            <view class='content-item' bindtap="collect">
+                <view class='icon-content' style='background-color:#E0FFFF;'>
+                    <text class='iconfont icon-xinxichaxun1 icon-item' style='color:#FF4500'></text>
+                </view>
+                <view class='text'>查询</view>
+            </view>
+            <view class='content-item'>
+                <navigator target="miniProgram" open-type="navigate" app-id="wx46e3d5ac62c0f965" path="" extra-data="" version="release" hover-class="none">
+                    <view class='icon-content' style='background-color:'>
+                        <text class='iconfont icon-daohang icon-item' style='color:#4C87E0;'></text>
+
+                    </view>
+                    <view class='text'>导航</view>
+
+                </navigator>
+
+            </view>
+        </view>
+    </view>
+    <view class="line" wx:if="{{ad_center.length}}"></view>
+    <view>
+        <view wx:for="{{ad_center}}" wx:key="">
+            <view class="ad_center">
+                <view wx:if="{{item.image}}">
+                    <image class="ad_center-image" src="{{item.pic_url}}" lazy-load="true" mode='aspectFill'></image>
+                </view>
+                <view class="ad_des" bindtap="ad_article" data-nid="{{item.nid}}">
+                    <view class="title">{{item.title}}</view>
+                    <text class="des">{{item.desc}}</text>
+                    
+                </view>
+                
+            </view>
+            <view class="ad_time">
+                <text decode="{{true}}">更新时间&nbsp;&nbsp; {{item.update_time}}</text>
+            </view>
+            <view class="line-item"></view>
+        </view>
+    </view>
+</view>

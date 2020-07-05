@@ -1,0 +1,39 @@
+/* classify/auth/index.wxss */
+
+.des{
+    color: red;
+    margin: 15rpx 20rpx;
+    padding: 20rpx;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item{
+    width: 400rpx;
+    height: 50rpx;
+    margin: 15rpx auto;
+}
+
+.item input{
+    border: 1px solid #808080;
+    padding-left: 10rpx;
+}
+
+.code{
+    display: flex;
+}
+.code_iamge{
+    width: 100rpx;
+    height: 50rpx;
+    margin-right: 5rpx;
+}
+
+.submit{
+    width: 200rpx;
+    margin-top: 30rpx;
+    margin: 30rpx auto;
+}
+

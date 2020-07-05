@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "i-upimage": "/components/upimage/index",
+        "i-report": "/components/report/index"
+    }
+}

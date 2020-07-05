@@ -1,0 +1,5 @@
+<!--pages/commentImage/index.wxml-->
+<view>
+    <i-upimage img-plus="img-plus" binddelImage='delImage' bindaddImage='addImage' />
+
+</view>

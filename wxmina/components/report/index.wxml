@@ -1,0 +1,9 @@
+<!--components/report/index.wxml-->
+<view class="page">
+    <view class='item'>
+        <button class='btn' plain='true' open-type="contact">举报</button>
+        <!-- <view class='iconfont icon-chakantiezigengduojubao icon-item'></view> -->
+        <!-- <view>举报</view> -->
+    </view>
+    
+</view>

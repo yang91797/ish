@@ -1,0 +1,33 @@
+<!--pages/msg/index.wxml 我的通知-->
+<import src='../../wxParse/wxParse.wxml' />
+<view class="none-msg" wx:if="{{noMsg}}">暂无消息</view>
+
+<view class='page'> 
+    <view wx:for="{{msgArray}}" wx:key=""  class='item'>
+        <view wx:if="{{msglist[index].article_id}}">
+            <view class='meta_item meta_item_author' bindtap='userinfo' data-id='{{msglist[index].user__openid}}'>
+                <view class='meta_icon'>
+                    <image src='{{msglist[index].user__avatar}}'></image>
+                </view>
+                <view>
+                    <view class='meta_text name'>{{msglist[index].user__username}}</view>
+                    <view class='meta_text time'>{{msglist[index].create_time}}</view>
+                </view>
+            </view>
+
+            <view class='msg'>
+                <template is="wxParse" data="{{wxParseData:item}}" />
+            </view>
+            <view class='content' bindtap='detail' data-articleId='{{msglist[index].article_id}}'>
+                <view>{{msglist[index].article__desc}}</view>
+            </view>
+        </view>
+        <view wx:else>
+            <view class='meta_item'>{{msglist[index].create_time}}</view>
+            <view class='content'>
+                <template is="wxParse" data="{{wxParseData:item}}" />
+            </view>
+        </view>
+    </view>
+
+</view>

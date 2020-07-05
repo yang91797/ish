@@ -1,0 +1,31 @@
+<!--pages/about/index.wxml-->
+<view class='page'>
+    <button class='btn' plain='true' open-type='feedback'>反馈</button>
+    <view class='item'>
+        <view class='item-font'>
+            反馈
+        </view>
+        <view class='iconfont icon-youjiantou icon-item'></view>
+    </view>
+    <!-- <button class='btn' plain='true' bindtap='report'>举报</button>
+    <view class='item'>
+        <view class='item-font'>
+            举报
+        </view>
+        <view class='iconfont icon-youjiantou icon-item'></view>
+    </view> -->
+    <button class='btn' plain='true' open-type="contact">联系我们</button>
+    <view class='item'>
+        <view class='item-font'>
+            联系我们
+        </view>
+        <view class='iconfont icon-youjiantou icon-item'></view>
+    </view>
+    <button class='btn' plain='true' bindtap='inform'>使用申明</button>
+    <view class='item'>
+        <view class='item-font'>
+            用户须知
+        </view>
+        <view class='iconfont icon-youjiantou icon-item'></view>
+    </view>
+</view>

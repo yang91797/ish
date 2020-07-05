@@ -1,0 +1,30 @@
+<!--classify/errand/index.wxml-->
+<view>
+    <view class="publish" bindtap="publish">
+        <view class="iconfont icon-fabu1 icon-publish"></view>
+    </view>
+    <view wx:for="{{errand}}" wx:key="" class="content-list">
+        <view class="header">
+            <view class="avatar">
+                <image src="{{item.user__avatar}}"></image>
+            </view>
+            <view>
+                <view class="username">{{item.user__username}}</view>
+                <view class="time">{{item.create_time}}</view>
+            </view>
+        </view>
+        <view class="content" data-id="{{item.id}}">
+            <view>描述：{{item.content}}</view>
+            <view wx:if="{{item.valid}}" class="iconfont icon-yijiedan icon-item"></view>
+            <view>重量大约(kg)：{{item.kg}}</view>
+            <view>截止时间：{{item.deadline}}</view>
+            <view>价格(RMB)：{{item.price}}</view>
+            <view>地点：{{item.site}}</view>
+        </view>
+        <view data-id="{{item.id}}" class="take" bindtap="take">
+            <button size="mini" disabled="{{item.valid}}">我要接单</button>
+        </view>
+    </view>
+</view>
+
+

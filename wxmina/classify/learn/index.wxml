@@ -1,0 +1,23 @@
+<!--classify/learn/index.wxml-->
+<wux-notice-bar loop>
+    欢迎大家积极上传分享资料，丰富江海大学习资料库，链接失效联系客服。
+</wux-notice-bar>
+
+<view class="page">
+    <view class="publish" bindtap="publish">
+        <view class="iconfont icon-fabu1 icon-publish"></view>
+    </view>
+
+    <view class="category" wx:for="{{category}}" wx:key="item.id" style="color:{{bgColors[index]}}" data-id="{{item.id}}" bindtap="getData">
+        <view>
+            <view>{{item.category}}</view>
+            <view>主题：{{item.num}}</view>
+        </view>
+    </view>
+    <view class="category" bindtap="getData">
+        <view style="color:#cf43c1">
+            <view>其他</view>
+            <view>主题：{{other_num}}</view>
+        </view>
+    </view>
+</view>

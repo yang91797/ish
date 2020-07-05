@@ -1,0 +1,35 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="page">
+    <view class="title">江海大i生活使用章程</view>
+    <view class="content">
+        <view class="item">
+            第1条  禁止发表不当内容，遵守中华人民共和国的法律法规。
+        </view>
+        <view class="item">
+            第2条  禁止使用发帖机等非法软件，进行导流，危害平台安全。
+        </view>
+        <view class="item">
+            第3条  禁止使用非正常手段获取本平台任何信息。
+        </view>
+        <view class="item">
+            第4条  禁止发布未经允许的任何形式的商业广告。
+        </view>
+        <view class="item">
+            第5条  禁止任何用户发布涉嫌诽谤他人、侵害他人合法权益的内容。
+        </view>
+        <view class="item">
+            第6条  本平台为自由发帖平台，用户须自行辨别信息的真实性，注意自身和财产安全，发现虚假信息立即举报。
+        </view>
+        <view class="item">
+            第7条  用户的言行不得违反《计算机信息网络国际联网安全保护管理办法》、《互联网信息服务管理办法》等相关法律的规定。
+        </view>
+        <view class="item">
+            第8条  江海大i生活拥有对违规用户进行处理的权力。
+        </view>
+
+    </view>
+
+    <view class="foot">
+        为了能够给广大用户提供一个优质的平台，同时使平台能够良性、健康的发展，请广大用户积极监督，举报，我们将对违规行为进行严厉处理。将视情况给予暂时或永久封禁ID并清空所有发言的处罚。
+    </view>
+</view>

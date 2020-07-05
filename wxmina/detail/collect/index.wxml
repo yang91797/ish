@@ -1,0 +1,11 @@
+<!--detail/collect/index.wxml-->
+<view class="page">
+    <view class="items" wx:for="{{phone}}" wx:key="">
+        <view class="phone-name">
+            <view>{{item.name}}</view>
+            <view class="line"></view>
+        </view>
+        
+        <view class="phone" bindtap="call" data-phone="{{item.phone}}">现在联系</view>
+    </view>
+</view>

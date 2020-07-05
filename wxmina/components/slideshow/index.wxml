@@ -1,0 +1,17 @@
+<!--components/slideshow/index.wxml-->
+<!-- 轮播图 -->
+<view class='swiper-container'>
+    <swiper class='swiper_box shopping' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' bindchange='swiperchange' circular='true'>
+        <block wx:for="{{banners}}" wx:key="id">
+            <swiper-item >
+                <image lazy-load="true" bindtap='tapBanner' data-id="{{item.nid}}" data-index='{{index}}' src="{{item.pic_url}}" class='slide-image shopp-image' width='750rpx' height='562.5rpx' />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class='dots'>
+        <block wx:for="{{banners}}" wx:key="unique">
+            <view class="dot {{index == swiperCurrent ? 'active':''}}"></view>
+        </block>
+    </view>
+</view>
+

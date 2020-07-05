@@ -1,0 +1,128 @@
+<!--pages/top/top.wxml-->
+<!-- <form bindsubmit='' report-submit='true'>
+    <button class='form_button' form-type='submit'>
+
+    </button>
+</form> -->
+<view class='container'>
+    <i-search bindsearchShow="searchShow" bindsearchData="searchData" />
+    <view>
+        <view class='article' hidden="{{!show}}">
+            <view class='topic no-search' wx:if="{{noSearch}}">没有搜索结果</view>
+            <view active='{{act}}' bind:change="onChange">
+                <view class='topic' wx:for='{{search_list}}' wx:key='{{item.nid}}' bindtap='seeDetail' data-id='{{item.nid}}' data-index='{{index}}'>
+
+                    <view>
+                        <view class='topic_title'>{{item.title}}</view>
+                        <view class='topic_content'>{{item.desc}}</view>
+
+                    </view>
+                    <view class='topic_meta'>
+                        <!-- 作者 -->
+                        <view class='meta_item meta_item_author'>
+                            <view class='meta_icon'>
+                                <image lazy-load="true" src='{{item.user__avatar}}'></image>
+                            </view>
+                            <view class='meta_text'>{{item.user__username}}</view>
+                        </view>
+
+                        <!-- 时间 -->
+                        <view class='meta_item meta_item_date'>
+                            <view class='meta_icon meta_icon_author'>
+                                <image lazy-load="true" src='../../images/time_circle.png'></image>
+                            </view>
+                            <view class='meta_text'>{{item.create_time}}</view>
+                        </view>
+
+                        <!-- 评论数量 -->
+                        <view class='meta_item meta_item_comment'>
+                            <view class='meta_icon'>
+                                <image lazy-load="true" src='../../images/comment.png'></image>
+                            </view>
+                            <view class='meta_text'>{{item.comm_count}}</view>
+                        </view>
+
+                        <!-- 点赞数量 -->
+                        <view class='meta_item meta_item_like'>
+                            <view class='meta_icon'>
+                                <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                            </view>
+                            <view class='meta_text'>{{item.up_count}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view hidden="{{show}}">
+        <i-slideshow banners='{{banners}}' shopping="shopping" shopp-image="shopp-image" />
+        <!-- 分类展示 -->
+
+        <view class='type-box'>
+            <form bindsubmit='catClick' wx:for-items="{{categories}}" wx:key="id" id='{{item.nid}}' report-submit='true'>
+                <button class='form_button' form-type='submit'>
+                    <view class='type-navbar-item {{activeCategoryId == item.nid ? "type-item-on" : ""}}'>
+                        {{item.title}}
+                    </view>
+                </button>
+            </form>
+
+        </view>
+
+
+        <!-- 加载文章 -->
+        <view class='article'>
+            <view class='article-list'>
+                <form wx:for='{{article_list}}' wx:key='{{item.nid}}' bindsubmit='seeDetail' report-submit='true' data-index='{{index}}' data-id='{{item.nid}}'>
+                    <button class='form_button' form-type='submit'>
+                        <view class='topic' hover-class='topic-hover'>
+                            <view>
+                                <view class='topic_title'>{{item.title}}</view>
+                                <view class='topic_content'>{{item.desc}}</view>
+                                <view class='images1' wx:if='{{item.img__image}}'>
+                                    <image class='article-image' lazy-load='true' mode='aspectFill' src='{{item.img__image}}'></image>
+                                </view>
+                            </view>
+                            <view class='topic_meta'>
+                                <!-- 作者 -->
+                                <view class='meta_item meta_item_author'>
+                                    <view class='meta_icon'>
+                                        <image lazy-load="true" src='{{item.user__avatar}}'></image>
+                                    </view>
+                                    <view class='meta_text'>{{item.user__username}}</view>
+                                </view>
+
+                                <!-- 时间 -->
+                                <view class='meta_item meta_item_date'>
+                                    <view class='meta_icon meta_icon_author'>
+                                        <image lazy-load="true" src='../../images/time_circle.png'></image>
+                                    </view>
+                                    <view class='meta_text'>{{item.create_time}}</view>
+                                </view>
+
+                                <!-- 评论数量 -->
+                                <view class='meta_item meta_item_comment'>
+                                    <view class='meta_icon'>
+                                        <image lazy-load="true" src='../../images/comment.png'></image>
+                                    </view>
+                                    <view class='meta_text'>{{item.comm_count}}</view>
+                                </view>
+
+                                <!-- 点赞数量 -->
+                                <view class='meta_item meta_item_like'>
+                                    <view class='meta_icon'>
+                                        <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                                    </view>
+                                    <view class='meta_text'>{{item.up_count}}</view>
+                                </view>
+                            </view>
+                        </view>
+                    </button>
+                </form>
+
+            </view>
+        </view>
+    </view>
+
+    <view hidden="{{loadingMoreHidden}}" class="no-more-goods">哥也是有底线的</view>
+</view>

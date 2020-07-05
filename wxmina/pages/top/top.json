@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+      "i-slideshow": "/components/slideshow/index",
+      "i-search": "/components/search/index"
+  }
+
+}

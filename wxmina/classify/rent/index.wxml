@@ -1,0 +1,32 @@
+<!--classify/rent/index.wxml-->
+<view class="page">
+    <view class="publish" bindtap="publish">
+        <view class="iconfont icon-fabu1 icon-publish"></view>
+    </view>
+    <form wx:for="{{article_list}}" wx:key='{{item.nid}}' bindsubmit='seeDetail' report-submit='true' data-index='{{index}}' data-id='{{item.nid}}'>
+        <button class='form_button' form-type='submit'>
+            <view>
+                <view class="header">
+                    <view class="avatar">
+                        <image src="{{item.user__avatar}}"></image>
+                    </view>
+                    <view>
+                        <view class="username">{{item.user__username}}</view>
+                        <view class="time">{{item.create_time}}</view>
+                    </view>
+                </view>
+                <view class="content">
+                    <view wx:if="{{item.img__image}}">
+                        <image class="content-image" src="{{item.img__image}}" lazy-load="true" mode='aspectFill'></image>
+                    </view>
+                    <text class="des">{{item.desc}}</text>
+                </view>
+                <view class="line"></view>
+            </view>
+
+        </button>
+
+    </form>
+
+    <view hidden="{{loadingMoreHidden}}" class="no-more-goods">哥也是有底线的</view>
+</view>

@@ -1,0 +1,79 @@
+/* classify/rent/index.wxss */
+.header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15rpx;
+}
+
+.avatar image{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    margin-right: 15rpx;
+}
+.username{
+    font-size: 35rpx;
+    color: #383845;
+    height: 30rpx;
+    line-height: 30rpx;
+    margin-top: 10rpx;
+}
+.time{
+    color:#808080;
+    font-size: 20rpx;
+    margin-top: 35rpx;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15rpx 20rpx;
+    background-color:#F5F5F5;
+    height: 200rpx;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.content-image{
+    width: 200rpx;
+    height: 200rpx;
+    margin-right: 15rpx;
+    border-radius: 10rpx;
+}
+.line{
+    width: 100%;
+    margin-top: 15rpx;
+    margin-bottom:25rpx; 
+    border-bottom: 1px solid #ebebeb;
+}
+
+button.form_button{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    position: static;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    text-align: left;
+    line-height: 0;
+}
+button.form_button::after{
+    content: '';
+    width: 0;
+    height: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    display: none;
+    background-color: transparent;
+}
+
+.des{
+    width: 100%;
+    height: 200rpx;
+    color: #383845;
+    line-height: 44rpx;
+    font-size: 30rpx;
+    padding: 15rpx;
+}

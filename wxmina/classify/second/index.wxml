@@ -1,0 +1,59 @@
+<!--classify/second/index.wxml-->
+<view class='container'>
+    <view class="publish" bindtap="publish">
+        <view class="iconfont icon-fabu1 icon-publish"></view>
+    </view>
+    <view class='article'>
+        <view class='article-list'>
+            <form wx:for='{{article_list}}' wx:key='{{item.nid}}' bindsubmit='seeDetail' report-submit='true' data-index='{{index}}' data-id='{{item.nid}}'>
+                <button class='form_button' form-type='submit'>
+                    <view class='topic' hover-class='topic-hover'>
+                        <view>
+                            <view class='topic_title'>{{item.title}}</view>
+                            <view class='topic_content'>{{item.desc}}</view>
+                            <view class='images1' wx:if='{{item.img__image}}'>
+                                <image class='article-image' lazy-load='true' mode='aspectFill' src='{{item.img__image}}'></image>
+                            </view>
+                        </view>
+                        <view class='topic_meta'>
+                            <!-- 作者 -->
+                            <view class='meta_item meta_item_author'>
+                                <view class='meta_icon'>
+                                    <image lazy-load="true" src='{{item.user__avatar}}'></image>
+                                </view>
+                                <view class='meta_text'>{{item.user__username}}</view>
+                            </view>
+
+                            <!-- 时间 -->
+                            <view class='meta_item meta_item_date'>
+                                <view class='meta_icon meta_icon_author'>
+                                    <image lazy-load="true" src='../../images/time_circle.png'></image>
+                                </view>
+                                <view class='meta_text'>{{item.create_time}}</view>
+                            </view>
+
+                            <!-- 评论数量 -->
+                            <view class='meta_item meta_item_comment'>
+                                <view class='meta_icon'>
+                                    <image lazy-load="true" src='../../images/comment.png'></image>
+                                </view>
+                                <view class='meta_text'>{{item.comm_count}}</view>
+                            </view>
+
+                            <!-- 点赞数量 -->
+                            <view class='meta_item meta_item_like'>
+                                <view class='meta_icon'>
+                                    <image lazy-load="true" src='{{like?yesSrc:noSrc}}'></image>
+                                </view>
+                                <view class='meta_text'>{{item.up_count}}</view>
+                            </view>
+                        </view>
+                    </view>
+                </button>
+            </form>
+
+        </view>
+    </view>
+
+    <view hidden="{{loadingMoreHidden}}" class="no-more-goods">哥也是有底线的</view>
+</view>

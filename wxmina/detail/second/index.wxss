@@ -1,0 +1,16 @@
+/* detail/second/index.wxss */
+
+@import "../../pages/detail/detail.wxss";
+
+.icon-item{
+    line-height: 51rpx;
+    font-size: 100rpx;
+    color: #ff0000;
+    float: right;
+    margin-top: -75rpx;
+    margin-right: 50rpx;
+}
+
+.time{
+    margin-left: 4rpx;
+}

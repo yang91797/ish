@@ -1,0 +1,34 @@
+<!--pages/vieuser/index.wxml-->
+<view class='page'>
+    <view class='ava'>
+        <view class='avatar'>
+            <image src='{{userinfo.avatar}}'></image>
+        </view>
+    </view>
+    <view class='item'>
+        <view class='item1'>昵称</view>
+        <text class='item2' selectable='true'>{{userinfo.username}}</text>
+    </view>
+    <view class='item'>
+        <view class='item1'>性别</view>
+        <text class='item2' selectable='true' wx:if='{{userinfo.sex == 1}}'>男</text>
+        <text class='item2' selectable='true' wx:if='{{userinfo.sex == 2}}'>女</text>
+        <text class='item2' selectable='true' wx:if='{{userinfo.sex == 0}}'>未知</text>
+    </view>
+    <view class='item'>
+        <view class='item1'>电话</view>
+        <text class='item2' selectable='true'>{{userinfo.telephone}}</text>
+    </view>
+    <view class='item'>
+        <view class='item1'>微信</view>
+        <text class='item2' selectable='true'>{{userinfo.wechat}}</text>
+    </view>
+    <view class='item'>
+        <view class='item1'>QQ</view>
+        <text class='item2' selectable='true'>{{userinfo.qq}}</text>
+    </view>
+    <view class='item'>
+        <view class='item1'>邮箱</view>
+        <text class='item2' selectable='true'>{{userinfo.email}}</text>
+    </view>
+</view>

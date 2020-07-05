@@ -1,0 +1,35 @@
+<!--classify/errand/create.wxml-->
+<view class="page">
+    <form bindsubmit="submit" report-submit="true">
+        <view class="item">
+            <view>描述</view>
+            <input name="desc"></input>
+        </view>
+        <view class="item">
+            <view>大概重量（kg）</view>
+            <input name="kg" type="number"></input>
+        </view>
+        <view class="item">
+            <view>地点</view>
+            <input name="site"></input>
+        </view>
+        <view class="item">
+            <view>价格（元）</view>
+            <input name="price" type="digit"></input>
+        </view>
+        <view class=" item select-date">
+            <view class="">截止时间:</view>
+            <view class="date">
+                <picker class="date-item" mode="date" value="{{date}}" bindchange="bindDateChange">{{date}}</picker>
+            </view>
+            <view class="time">
+                <picker class="time-item" mode="time" value="{{time}}" bindchange="bindTimeChange">{{time}}</picker>
+            </view>
+        </view>
+
+
+        <view class="item">
+            <button class="submit" form-type="submit">发布</button>
+        </view>
+    </form>
+</view>

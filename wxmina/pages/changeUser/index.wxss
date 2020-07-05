@@ -1,0 +1,59 @@
+/* pages/changeUser/index.wxss */
+
+.avatar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 22rpx;
+}
+.avatar image{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    align-content: center; 
+}
+.item{
+    width: 90%;
+    height: 100rpx;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #ebebeb;
+}
+.last{
+    border-bottom: solid 1px #ebebeb;
+}
+
+.label{
+    margin-left: 28rpx;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 210rpx; 
+}
+.item input{
+    width: 100%;
+    border: solid 1px #ffffff; 
+    outline: 0;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+}
+.radio-group{
+    width: 100%;
+
+}
+.item label{
+    width: 100rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    margin-right: 50rpx;
+}
+
+.button{
+    width: 50%;
+    margin: auto;
+    padding-top: 30rpx;
+}
