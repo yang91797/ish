@@ -37,12 +37,12 @@ backstage目录下为后台管理代码
 
 rbac为权限管理组件
 
-stark为增删改查+组件
+stark为增删改查+ 组件
 
 ### 扫码体验
-![images]()
+![images](https://raw.githubusercontent.com/yang91797/ish/master/staticAll/gh_ab9a4c557490_258.jpg)
 
 
 ### 后台管理界面
 
-![images]()
+![images](https://raw.githubusercontent.com/yang91797/ish/master/staticAll/%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%91%98%E5%90%8E%E5%8F%B0%E7%95%8C%E9%9D%A2.png)
